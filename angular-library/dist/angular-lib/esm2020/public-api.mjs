@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of angular-lib
+ */
+export * from './lib/angular-lib.module';
+export * from './lib/components/button';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2FuZ3VsYXItbGliL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYywwQkFBMEIsQ0FBQztBQUN6QyxjQUFjLHlCQUF5QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBhbmd1bGFyLWxpYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2FuZ3VsYXItbGliLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzL2J1dHRvbic7XG4iXX0=
