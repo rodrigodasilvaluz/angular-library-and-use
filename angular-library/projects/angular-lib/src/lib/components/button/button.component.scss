@@ -1,0 +1,32 @@
+button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+button.primary {
+    background-color: blueviolet;
+}
+
+button.secundary {
+    background-color: grey;
+}
+
+button.primary:hover,
+button.secundary:hover {
+    color:#ccc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button.sm {
+   padding: 3px 6px;
+}
+
+button.md {
+   padding: 6px 12px; 
+}
+
+button.lg {
+   padding: 9px 18px; 
+}

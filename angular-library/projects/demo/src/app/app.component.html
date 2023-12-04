@@ -1,0 +1,35 @@
+<h2>Component Library Button</h2>
+
+<h3>Inputs</h3>
+<pre>
+  <code>
+    <b>variant</b>: 'primary' | 'secundary' => default 'primary'
+    <b>size</b>: 'sm' | 'md' | 'lg' => default 'lg'
+  </code>
+</pre>
+
+<h3>Use</h3>
+<pre>
+  <code>
+    &lt;lib-button&gt;
+      With input variabels primary and md
+    &lt;/lib-button&gt;
+
+    or
+
+    &lt;lib-button [variant]="'primary'" [size]="'md'"&gt;
+      With input variabels primary and md
+    &lt;/lib-button&gt;
+  </code>
+</pre>
+
+
+<h3>Render</h3>
+<lib-button> No input variabels </lib-button> |
+<lib-button [variant]="'primary'" [size]="'md'">
+  With input variabels primary and md
+</lib-button>
+|
+<lib-button [variant]="'secundary'" [size]="'sm'">
+  With input variabels secundary and sm
+</lib-button>
