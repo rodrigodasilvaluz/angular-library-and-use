@@ -85,6 +85,12 @@ npm i @rodrigoluz/angular-lib
 
 ## Import in project angular-library-use-two
 
+In ./angular-library/dist/angular-lib directory, use
+```bash
+npm pack --pack-destination
+mv rodrigoluz-angular-lib-0.0.1.tgz ../../package-npm
+```
+
 ```json
   ...
   "dependencies": {
@@ -96,7 +102,7 @@ npm i @rodrigoluz/angular-lib
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
-    "@rodrigoluz/angular-lib": "https://github.com/rodrigodasilvaluz/angular-library-and-use/tree/main/dist/angular-lib/", // <--
+    "@rodrigoluz/angular-lib": "https://github.com/rodrigodasilvaluz/angular-library-and-use/tree/master/angular-library/package-npm/rodrigoluz-angular-lib-0.0.1.tgz", // <--
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
